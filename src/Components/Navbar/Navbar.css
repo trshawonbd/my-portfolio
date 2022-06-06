@@ -5,3 +5,10 @@
     display: flex;
     gap: 2rem;
   }
+
+  .n-list > ul {
+    
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+
