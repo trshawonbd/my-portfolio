@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles";
 import Typical from 'react-typical';
 
 import profile from "../../img/profile.jpg";
+import Footer from './Footer/Footer';
 
 
 
@@ -35,6 +36,7 @@ const Header = () => {
                             value: "",
                         },
                     },
+                    
                     fpsLimit: 120,
                     interactivity: {
                         events: {
@@ -87,7 +89,7 @@ const Header = () => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 80,
+                            value: 50,
                         },
                         opacity: {
                             value: 0.5,
@@ -141,7 +143,7 @@ const Header = () => {
                             <h1 className='text-4xl'>
                                 
                                 <Typical
-                                className= 'my-3 md: text-2xl lg:text-5xl text-center uppercase'
+                                className= 'type my-3 md: text-2xl lg:text-5xl text-center uppercase'
                                     loop={Infinity}
                                     steps={[
                                         "Enthusiastic Dev",
@@ -162,12 +164,12 @@ const Header = () => {
                             </span>
                         </span>
                     </div>
-                    {/* <h1 className="text-5xl font-bold">Box Office News!</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p> */}
                     <div><button className="btn button btn-primary mt-4">Hire Me</button></div>
                 </div>
             </div>
+            
         </div>
+        
     );
 };
 

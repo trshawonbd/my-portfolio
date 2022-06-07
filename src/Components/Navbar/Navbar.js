@@ -11,7 +11,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className='font-bold uppercase' to="services" spy={true} smooth={true}>
+              <Link className='font-bold uppercase' to="/services" spy={true} smooth={true}>
                 Serivces
               </Link>
             </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">
