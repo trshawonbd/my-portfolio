@@ -5,6 +5,8 @@ import Header from './Components/Header/Header';
 import Services from './Components/Services/Services';
 import Footer from './Components/Header/Footer/Footer';
 import Home from './Components/Home/Home';
+import Works from './Components/Works/Works';
+import Projects from './Components/Projects/Projects';
 
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
       
       
       <Services></Services>
+
+      <Projects></Projects>
+      
 
     </div>
   );

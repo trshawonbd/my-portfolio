@@ -8,15 +8,28 @@ import automation from '../../img/automation.png';
 
 const Services = () => {
     return (
-        <div className='services my-8 bg-100' id='services'>
+        <div className='services my-12 bg-100 ' id='services'>
 
-            <h2 className='text-center text-4xl my-6 underline decoration-solid'>Services</h2>
+            <h2 className='text-center text-5xl  my-8 underline decoration-solid'>Services</h2>
 
-            <div className="card flex flex-col items-center justify-center lg:flex-row-reverse base-100">
+            <div className="card flex flex-col items-center justify-center  lg:flex-row base-100">
+            <div className='flex'>
+                    <div className="card-body ">
+                        <h2 className="card-title text-5xl">My Awesome</h2>
+                        <h2 className="card-title text-5xl text-primary flex items-end">Services</h2>
+                        <p className='text-xl my-5'>Since beginning my journey I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+                        <div className="card-actions justify-start">
+                            <a href={Resume} download>
+                            <button className="btn btn-primary button">Download Resume</button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
 
                 <div className="grid grid-rows-3 lg:grid-flow-col gap-4 background">
                     <div className="lg:row-start-2 lg:col-start-2 ...">
-                        <div className="card w-96 bg-base-100 border-4 border-primary shadow-xl">
+                        <div className="card lg:w-96 bg-base-100 border-4 border-primary shadow-xl">
                             <figure><img className='w-16 h-16' src={design} alt="design" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
@@ -41,7 +54,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="lg:row-start-1 lg:col-start-2 ...">
-                    <div className="card w-96 bg-base-100 border-4 border-primary shadow-xl">
+                    <div className="card lg:w-96 bg-base-100 border-4 border-primary shadow-xl">
                             <figure><img className='w-16 h-16' src={front} alt="front" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
@@ -67,7 +80,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="lg:row-start-2 row-span-2 ...">
-                        <div className="card w-96 bg-base-100 border-4 border-primary shadow-xl">
+                        <div className="card lg:w-96 bg-base-100 border-4 border-primary shadow-xl">
                             <figure><img className='w-16 h-16' src={backend} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
@@ -92,7 +105,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="lg:row-start-3 lg:col-start-2 ...">
-                        <div className="card w-96 bg-base-100 border-4 border-primary shadow-xl">
+                        <div className="card lg:w-96 bg-base-100 border-4 border-primary shadow-xl">
                             <figure><img className='w-16 h-16' src={automation} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
@@ -115,16 +128,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className='flex'>
-                    <div className="card-body ">
-                        <h2 className="card-title text-5xl">My Awesome</h2>
-                        <h2 className="card-title text-5xl text-primary flex items-end">Services</h2>
-                        <p className='text-xl my-5'>Since beginning my journey I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
-                        <div className="card-actions justify-start">
-                            <button className="btn btn-primary">Listen</button>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
 
