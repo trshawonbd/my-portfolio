@@ -8,9 +8,9 @@ import automation from '../../img/automation.png';
 
 const Services = () => {
     return (
-        <div className='services my-12 bg-100 ' id='services'>
+        <div className='services my-12 bg-100  ' id='services'>
 
-            <h2 className='text-center text-5xl uppercase my-8 underline decoration-solid'>Services</h2>
+            <h2 className='text-center text-5xl uppercase my-8 underline decoration-solid '>Services</h2>
            
             
 

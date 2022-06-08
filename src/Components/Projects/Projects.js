@@ -103,7 +103,7 @@ const Projects = () => {
                                             </p>
                                             <h2 class="card-title">Clent Features</h2>
 
-                                            <ol>
+                                            
                                                 <li>Client can easily see the homepage.</li>
                                                 <li>Client can easily create an account in the website.</li>
                                                 <li>Client can easily purchase any product as much as he/she wants but make sure the items must be in between available quantity and minimum purchase quantity.</li>
@@ -111,10 +111,10 @@ const Projects = () => {
                                                 <li>Client can remove their unpaid items which are added in the order list.</li>
                                                 <li>Client can easily write a review from his/her dashboard menu (make sure he/ she is logged in) and the review will display in the review section in homepage.</li>
                                                 <li>Client can update his/her profile (can add image, education, address, location, linkedIn ID, phone no etc.) in the My profile page in dashboard.</li>
-                                            </ol>
+                                           
                                             <h2 class="card-title">Admin Features</h2>
 
-                                            <ol>
+                                           
                                                 <li>Admin can easily see the homepage.</li>
                                                 <li>Admin can easily create an account in the website.</li>
                                                 <li>Admin can easily add a product as much as he/she wants from Add a tool in dashboard.</li>
@@ -122,7 +122,7 @@ const Projects = () => {
                                                 <li>Admin can remove their unpaid items and also set status from pending to shipped which are added in the order list.</li>
                                                 <li>Admin can make another user admin or delete the user.</li>
                                                 <li>Admin can update his/her profile (can add image, education, address, location, linkedIn ID, phone no etc.) in the My profile page in dashboard.</li>
-                                            </ol>
+                                            
                                         </div>
                                     </div>
                                     <div class="modal-action">
@@ -224,7 +224,7 @@ const Projects = () => {
                                             </p>
                                             <h2 class="card-title">Features</h2>
 
-                                            <ol>
+                                            
                                                 <li>Stock tracking</li>
                                                 <li>Manage Suppliers</li>
                                                 <li>Instant Stock Knowledge</li>
@@ -232,7 +232,7 @@ const Projects = () => {
                                                 <li>Stock update</li>
                                                 <li>Item information</li>
                                                 <li>Email/password-and Google based authentication</li>
-                                            </ol>
+                                            
                                         </div>
                                     </div>
                                     <div class="modal-action">
@@ -288,7 +288,7 @@ const Projects = () => {
                                         </div>
                                     </div>
                                     <div class="card lg:card-side bg-base-100 flex-wrap ">
-                                        <div>
+                                        <div >
                                             <h1 className='text-3xl my-4'>Technology Used:</h1>
                                             <div className='mt-3 font-bold'>
 
@@ -328,7 +328,7 @@ const Projects = () => {
                                             </p>
                                             <h2 class="card-title">Project Features</h2>
 
-                                            <ol>
+                                            
                                                 <li>The project is designed by React Library.</li>
                                                 <li>This project is designed to keep it mind SPA(Single Page Application).</li>
                                                 <li>React Bootstrap is used for making the website responsive.</li>
@@ -338,7 +338,7 @@ const Projects = () => {
                                                 <li>React Firebase is used for authentication.</li>
                                                 <li>React Firebase hooks are used to implement Google and user and email authentication.</li>
                                                 <li>Firebase hosting is used to deploy the website</li>
-                                            </ol>
+                                            
 
                                         </div>
                                     </div>
