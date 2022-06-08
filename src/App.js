@@ -4,6 +4,7 @@ import Services from './Components/Services/Services';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skill/Skills';
+import About from './Components/About/About';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       
       <Home></Home>
       
-      
+      <About></About>
       <Services></Services>
 
       <Projects></Projects>
