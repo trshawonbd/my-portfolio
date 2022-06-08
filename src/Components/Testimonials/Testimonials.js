@@ -22,7 +22,7 @@ const Testimonials = () => {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         speed: 5000,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -56,7 +56,7 @@ const Testimonials = () => {
     return (
 
 
-        <div className='my-16'>
+        <div className='my-16' id='testimonials'>
             <h2 className='text-center md: text-4xl lg:text-5xl uppercase my-12 underline decoration-solid'> Testimonials </h2>
             <Slider {...settings}>
             

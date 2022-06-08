@@ -1,9 +1,10 @@
 import React from 'react';
 import about from '../../img/about.jpg';
+import resume from '../../Components/Services/resume.pdf';
 
 const About = () => {
     return (
-        <div className='my-12'>
+        <div className='my-12' id='about'>
             <h2 className='text-center text-5xl uppercase my-8 underline decoration-solid'>About Me</h2>
             <div className='lg:w-3/4 lg:flex lg:items-center lg:justify-center lg:mx-auto lg:scale-90'>
                 <div class="card lg:card-side shadow-2xl   ">
@@ -43,9 +44,9 @@ const About = () => {
                     <div class="card-actions justify-end">
                             <button class="btn  button">Hire Me</button>
                         </div>
-                        <div class="card-actions justify-end">
-                            <button class="btn  button">Get Resume</button>
-                        </div>
+                        <a href={resume} download>
+                                <button className="btn btn-primary button">Get Resume</button>
+                            </a>
                     </div>
                     </div>
                 </div>

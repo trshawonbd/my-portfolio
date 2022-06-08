@@ -8,10 +8,10 @@ const Footer = () => {
              <div class="divider divback"></div> 
                    <footer class="footer footer-center p-10   text-base-content rounded"   >
             <div class="grid grid-flow-col gap-4">
-                <a class="link link-hover">About us</a>
+                <a class="link link-hover">About me</a>
                 <a class="link link-hover">Contact</a>
-                <a class="link link-hover">Jobs</a>
-                <a class="link link-hover">Press kit</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Projects</a>
             </div>
             <div>
                 <div class="grid grid-flow-col gap-4 scale-150">

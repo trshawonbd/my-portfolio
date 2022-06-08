@@ -5,7 +5,7 @@ import photographer from '../../img/projects/Plumber/photographer.png';
 
 const Projects = () => {
     return (
-        <div className='my-12  '>
+        <div className='my-12' id='projects'>
             <h2 className='text-center text-5xl my-8 underline decoration-solid uppercase'>Projects</h2>
 
             <div className='grid lg:grid-cols-3 gap-4'>
@@ -101,7 +101,7 @@ const Projects = () => {
                                             <p>Plumber is a nice-looking Fully created for the online hardware manufacturing selling tools, pipes, pipe seal, spanners, paintbrushes, tapes, thread seals, non-flammable seals, and wrenches. Well categorized mega menu and advanced search option empower clients to get results without delay. Attractive blogs with active social channels allow clients to get the product and offer details once they launched. Highly upgraded collections and product sorting provide a smooth online shopping feel to your buyers. You also get testimonials, product carousel, banners, payments method and much more.
                                                 On the Othere Hand Admin Panel is also developed for this manufacturing company. Here, admin can easily set up their products, managing their products, managing orders and able to change order status.
                                             </p>
-                                            <h2 class="card-title">Clent Features</h2>
+                                            <h2 class="card-title">Client Features</h2>
 
                                             
                                                 <li>Client can easily see the homepage.</li>

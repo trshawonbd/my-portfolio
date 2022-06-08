@@ -21,7 +21,7 @@ const Conatct = () => {
             });
     };
     return (
-        <div className='my-8 bg-'>
+        <div className='my-8' id='contact'>
 
             <div className='text-center py-8'>
                 <h3 className='text-center text-5xl uppercase my-8 underline decoration-solid'>Get In Touch</h3>

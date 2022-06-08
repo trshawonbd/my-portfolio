@@ -9,7 +9,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <div className='my-12 '>
+        <div className='my-12' id='skills'>
             <h2 className='text-center text-5xl uppercase my-12 underline decoration-solid'>Major skills</h2>
 
             <div className='grid lg:grid-cols-3 gap-3 mx-4'>
