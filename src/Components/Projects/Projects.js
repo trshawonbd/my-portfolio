@@ -5,8 +5,8 @@ import photographer from '../../img/projects/Plumber/photographer.png';
 
 const Projects = () => {
     return (
-        <div className='my-12 '>
-            <h2 className='text-center text-5xl my-8 underline decoration-solid'>Projects</h2>
+        <div className='my-12  '>
+            <h2 className='text-center text-5xl my-8 underline decoration-solid uppercase'>Projects</h2>
 
             <div className='grid lg:grid-cols-3 gap-4'>
 
@@ -210,9 +210,7 @@ const Projects = () => {
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">JS</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">CSS</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">HTML</div>
-
                                             </div>
-
                                         </div>
                                         <div class="card-body">
                                             <h2 class="card-title">Projet Details</h2>
@@ -223,16 +221,13 @@ const Projects = () => {
                                                 Powerful business logic works in the background to ensure that stock tracking history is maintained, and users have ready access to stock level information.
                                             </p>
                                             <h2 class="card-title">Features</h2>
-
-                                            
                                                 <li>Stock tracking</li>
                                                 <li>Manage Suppliers</li>
                                                 <li>Instant Stock Knowledge</li>
                                                 <li>Extend and Customize to fit your usage</li>
                                                 <li>Stock update</li>
                                                 <li>Item information</li>
-                                                <li>Email/password-and Google based authentication</li>
-                                            
+                                                <li>Email/password-and Google based authentication</li>                                           
                                         </div>
                                     </div>
                                     <div class="modal-action">
@@ -261,8 +256,9 @@ const Projects = () => {
                             <a href="https://your-photographer.web.app/">
                                 <div class="badge badge-outline button">Live</div>
                             </a>
-
                         </div>
+
+
                         <div className="card-actions  items-center justify-end">
 
                             <label for="my-modal-3" class="btn modal-button btn-primary button">Explore</label>
@@ -291,14 +287,12 @@ const Projects = () => {
                                         <div >
                                             <h1 className='text-3xl my-4'>Technology Used:</h1>
                                             <div className='mt-3 font-bold'>
-
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React router</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React query</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React hook form</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React Bootstrap</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React Awesome</div>
-
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React Toastify</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">React Awesome</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">Bootstrap</div>
@@ -310,7 +304,6 @@ const Projects = () => {
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">JS</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">CSS</div>
                                                 <div class="badge badge-lg badge-primary my-2 uppercase mr-2">HTML</div>
-
                                             </div>
 
                                         </div>
@@ -326,9 +319,7 @@ const Projects = () => {
                                                 In Your PhotoGrapher website has login and register options are available for booking a service or several services.
                                                 Project Descr
                                             </p>
-                                            <h2 class="card-title">Project Features</h2>
-
-                                            
+                                            <h2 class="card-title">Project Features:</h2>                                           
                                                 <li>The project is designed by React Library.</li>
                                                 <li>This project is designed to keep it mind SPA(Single Page Application).</li>
                                                 <li>React Bootstrap is used for making the website responsive.</li>
@@ -338,8 +329,6 @@ const Projects = () => {
                                                 <li>React Firebase is used for authentication.</li>
                                                 <li>React Firebase hooks are used to implement Google and user and email authentication.</li>
                                                 <li>Firebase hosting is used to deploy the website</li>
-                                            
-
                                         </div>
                                     </div>
                                     <div class="modal-action">
@@ -350,7 +339,6 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );

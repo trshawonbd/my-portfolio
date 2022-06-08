@@ -3,7 +3,7 @@ import about from '../../img/about.jpg';
 
 const About = () => {
     return (
-        <div>
+        <div className='my-12'>
             <h2 className='text-center text-5xl uppercase my-8 underline decoration-solid'>About Me</h2>
             <div className='lg:w-3/4 lg:flex lg:items-center lg:justify-center lg:mx-auto lg:scale-90'>
                 <div class="card lg:card-side shadow-2xl   ">
