@@ -8,6 +8,8 @@ import About from './Components/About/About';
 import Client from './Components/Client/Client';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Conatct from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import BackgroundFooter from './Components/Footer/BackgroundFooter';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Client></Client>
       <Testimonials></Testimonials>
       <Conatct></Conatct>
+      <Footer></Footer>
+      <BackgroundFooter></BackgroundFooter>
 
     </div>
   );
