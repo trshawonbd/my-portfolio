@@ -10,7 +10,9 @@ const Services = () => {
     return (
         <div className='services my-12 bg-100 ' id='services'>
 
-            <h2 className='text-center text-5xl  my-8 underline decoration-solid'>Services</h2>
+            <h2 className='text-center text-5xl uppercase my-8 underline decoration-solid'>Services</h2>
+           
+            
 
             <div className="card flex flex-col items-center justify-center  lg:flex-row base-100">
             <div className='flex'>
