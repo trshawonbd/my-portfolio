@@ -22,7 +22,7 @@ const Testimonials = () => {
 
 
         <div className='my-16' id='testimonials'>
-            <h2 className='text-center md: text-3xl lg:text-5xl uppercase my-12 underline decoration-solid'> Testimonials </h2>
+            <h2 className='text-center text-3xl uppercase my-12 underline decoration-solid'> Testimonials </h2>
             <>
       <Swiper
         slidesPerView={1}

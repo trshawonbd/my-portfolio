@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
 import './COntact.css'
+import { toast } from 'react-toastify';
 
 const Conatct = () => {
     const form = useRef();
@@ -14,9 +15,11 @@ const Conatct = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log('message sent')
+                toast.success('Your Message is sent to MD Taibur Rahman')
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
+                toast.error('Something went wrong please try again')
                 e.target.reset();
             });
     };

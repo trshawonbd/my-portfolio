@@ -56,23 +56,22 @@ module.exports = {
         dark: {
 
 
-          primary: "#251D58",
 
-          secondary: "#828DF8",
+          primary: "#f5c32c",
 
-          accent: "#F471B5",
+          secondary: "#f9708e",
 
-          neutral: "#1D283A",
+        
 
-          "base-100": "#0F1729",
+          neutral: "#221B23",
 
-          info: "#0CA6E9",
+          "base-100": "#132938",
 
-          success: "#2BD4BD",
+          info: "#3791F1",
 
-          warning: "#F4C152",
-
-          error: "#FB6F84",
+          success: "#12A18B",
+          warning: "#9D7C10",
+          error: "#FD5E64",
         },
       },
 

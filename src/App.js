@@ -10,13 +10,20 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import Conatct from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import BackgroundFooter from './Components/Footer/BackgroundFooter';
+import { ToastContainer } from 'react-toastify';
+import { useState } from 'react';
+import Navbar from './Components/Navbar/Navbar';
 
 
 function App() {
+  const [dark, setDark] = useState(false);
   return (
-    <div>
-      
-      <Home></Home>
+    <div data-theme={dark ? "light" : "dark"}>
+
+      <Home 
+       dark={dark}
+       setDark={setDark}
+      ></Home>
       
       <About></About>
       <Services></Services>
@@ -28,6 +35,9 @@ function App() {
       <Conatct></Conatct>
       <Footer></Footer>
       <BackgroundFooter></BackgroundFooter>
+      <ToastContainer
+       theme='colored'
+      ></ToastContainer>
 
     </div>
   );

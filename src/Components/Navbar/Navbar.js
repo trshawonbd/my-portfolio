@@ -4,12 +4,17 @@ import React from 'react';
 import resume from '../Services/resume.pdf';
 import { Link } from 'react-scroll/modules';
 
-const Navbar = () => {
+const Navbar = ({dark, setDark}) => {
 
   const navMenu = <>
     <li>
       <Link className='font-bold ' activeClass="active" to="home" spy={true} smooth={true}>
         Home
+      </Link>
+    </li>
+    <li>
+      <Link className='font-bold ' to="about" spy={true} smooth={true}>
+        About
       </Link>
     </li>
     <li>
@@ -32,11 +37,7 @@ const Navbar = () => {
         Testimonial
       </Link>
     </li>
-    <li>
-      <Link className='font-bold ' to="about" spy={true} smooth={true}>
-        About
-      </Link>
-    </li>
+
     <li>
       <Link className='font-bold ' to="contact" spy={true} smooth={true}>
         Contact
@@ -46,7 +47,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar">
+    <div className={ !dark ? 'back1 navbar  ' : 'back navbar   '}>
       <div className="navbar-start">
         <div className="dropdown">
           <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -58,7 +59,7 @@ const Navbar = () => {
             <div>
 
               <label className='swap swap-rotate'>
-                <input type='checkbox' />
+              <input type='checkbox'  onClick={() => setDark(!dark)}  />
 
                 <svg
                   className='swap-off fill-current w-10 h-10'
@@ -81,7 +82,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="n-left">
-          <div className="n-name"><a className="btn btn-ghost normal-case text-xl">TRS</a></div>
+          <div className="n-name">
+          
+            <a className="btn btn-ghost normal-case text-xl text-primary "><Link className='font-bold ' activeClass="active" to="home" spy={true} smooth={true}>
+        TRS
+      </Link></a></div>
 
         </div>
 
@@ -93,7 +98,7 @@ const Navbar = () => {
             <div>
 
               <label className='swap swap-rotate'>
-                <input type='checkbox' />
+              <input type='checkbox'  onClick={() => setDark(!dark)}  />
 
                 <svg
                   className='swap-off fill-current w-10 h-10'

@@ -9,7 +9,7 @@ import Footer from './Footer/Footer';
 
 
 
-const Header = () => {
+const Header = ({dark}) => {
     const particlesInit = async (main) => {
         console.log(main);
 
@@ -105,31 +105,31 @@ const Header = () => {
                 }}
             />
 
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className=" hero-content flex-col lg:flex-row-reverse">
                 <div class="avatar">
-                    <div class="lg:w-96 max-w-sm rounded-lg shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 background">
-                        <img className='' src={profile} alt='profile-pic'/>
+                    <div class="lg:w-72 max-w-sm rounded-lg shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
+                        <img className='z-50' src={profile} alt='profile-pic'/>
                     </div>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <div className="colz flex">
-                        <div className="hover:scale-150 colz-icon">
-                            <a href="https://www.facebook.com/trshawonbd">
+                    <div className="">
+                    <div class="grid grid-flow-col gap-4 mb-2">
+                <a href="https://www.facebook.com/trshawonbd" className='hover:text-primary hover:scale-150'>
                                 <i className='fa fa-facebook-square'></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/md-taibur-rahman-0497b5127/">
+                            <a href="https://www.linkedin.com/in/md-taibur-rahman-0497b5127/" className='hover:text-primary hover:scale-150' >
                                 <i className='fa fa-linkedin-square'></i>
                             </a>
-                            <a href="https://www.instagram.com/taibur_rahman_shawon/">
+                            <a href="https://www.instagram.com/taibur_rahman_shawon/" className='hover:text-primary hover:scale-150'>
                                 <i className='fa fa-instagram'></i>
                             </a>
-                            <a href="https://github.com/trshawonbd">
+                            <a href="https://github.com/trshawonbd" className='hover:text-primary hover:scale-150'>
                                 <i className='fa fa-github-square'></i>
                             </a>
-                            <a href="https://twitter.com/6a642b40fe2a41f">
+                            <a href="https://twitter.com/6a642b40fe2a41f" className='hover:text-primary hover:scale-150'>
                                 <i className='fa fa-twitter'></i>
                             </a>
-                        </div>
+                </div>
                     </div>
                     <div className="flex justify-start items-start">
                         <span className="text-xl">
@@ -143,17 +143,17 @@ const Header = () => {
                             <h1 className='text-4xl'>
                                 
                                 <Typical
-                                className= 'type my-3 md: text-2xl lg:text-5xl text-center uppercase'
+                                className= 'type my-3 md: text-2xl lg:text-3xl text-center uppercase'
                                     loop={Infinity}
                                     steps={[
                                         "Enthusiastic Dev",
-                                        2000,
+                                        3000,
                                         "Full stack Dev",
-                                        2000,
+                                        3000,
                                         "React Developer",
-                                        2000,
+                                        3000,
                                         "Cross Platform Dev",
-                                        2000,
+                                        3000,
                                         "MERN DEVELOPER",
                                         4000,
                                     ]}>
