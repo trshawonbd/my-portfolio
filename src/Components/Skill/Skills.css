@@ -1,16 +1,13 @@
-.w-right {
-    position: relative;
-  }
-  
+
   .w-mainCircle {
     
-    position: relative;
-    width: 18rem;
-    height: 18rem;
+   position: relative;
+    width: 16rem;
+    height: 16rem;
     border-radius: 100%;
     box-shadow: var(--smboxShadow);
     top: 2rem;
-    background: white;
+    
     /* darkMode */
     z-index: 2;
   }
@@ -18,11 +15,11 @@
     position: absolute;
   }
   .w-mainCircle > :nth-child(1) {
-    top: -3rem;
+    top: -2rem;
     left: 6rem;
   }
   .w-mainCircle > :nth-child(2) {
-    left: -3rem;
+    left: -1rem;
     top: 5rem;
   }
   .w-mainCircle > :nth-child(3) {
@@ -30,12 +27,12 @@
     top: 5rem;
   }
   .w-mainCircle > :nth-child(4) {
-    left: 15rem;
+    left: 13rem;
     top: 5rem;
   }
   .w-mainCircle > :nth-child(5) {
     left: 6rem;
-    top: 13rem;
+    top: 12rem;
   }
   .w-secCircle {
     width: 6rem;

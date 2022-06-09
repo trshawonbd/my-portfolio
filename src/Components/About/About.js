@@ -5,15 +5,15 @@ import resume from '../../Components/Services/resume.pdf';
 const About = () => {
     return (
         <div className='my-12' id='about'>
-            <h2 className='text-center text-5xl uppercase my-8 underline decoration-solid'>About Me</h2>
+            <h2 className='text-center text-3xl uppercase my-8 underline decoration-solid'>About Me</h2>
             <div className='lg:w-3/4 lg:flex lg:items-center lg:justify-center lg:mx-auto lg:scale-90'>
                 <div class="card lg:card-side shadow-2xl   ">
                     <div >
                         <figure><img className='lg:w-full  lg:h-screen md: mb-8' src={about} alt="Movie"></img></figure>
                     </div>
                     <div class="card md: mx-4 lg:w-5/12 lg:scale-90">
-                        <h2 class="card-title">Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.</h2>
-                        <p className='text-xl my-8'>Here are a Few Highlights:</p>
+                        <h2 class="text-xl">Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.</h2>
+                        <p className='text-xl underline my-8'>Here are a Few Highlights:</p>
                         <div className='text-xl md: mb-8'>
                             
                                 <li className='text-xl'>
@@ -21,7 +21,7 @@ const About = () => {
                                     Full Stack web development
                                 </li>
                                 <li className='text-xl'>
-                                Interactive Front End as per the design
+                                Interactive Front End as per the design 
                                 </li>
                                 <li className='text-xl'>
                                 React and React Native

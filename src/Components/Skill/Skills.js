@@ -10,11 +10,11 @@ import './Skills.css';
 const Skills = () => {
     return (
         <div className='my-12' id='skills'>
-            <h2 className='text-center text-5xl uppercase my-12 underline decoration-solid'>Major skills</h2>
+            <h2 className='text-center text-3xl uppercase my-12 underline decoration-solid'>Major skills</h2>
 
             <div className='grid lg:grid-cols-3 gap-3 mx-4'>
                 <div>
-                    <div className=' flex items-center justify-center lg:scale-90 md: scale-50'>
+                    <div className=' flex items-center justify-center  scale-50'>
                         <motion.div
                             initial={{ rotate: 360 }}
                             whileInView={{ rotate: 0 }}
@@ -48,32 +48,32 @@ const Skills = () => {
                 <div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">MongoDB</span>
+                            <span class="label-text text-lg">MongoDB</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="80" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">Express</span>
+                            <span class="label-text text-lg">Express</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="75" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">Node JS
+                            <span class="label-text text-lg">Node JS
                             </span>
                         </label>
                         <progress class="progress progress-primary w-56" value="75" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">React JS</span>
+                            <span class="label-text text-lg">React JS</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="90" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">Rest API
+                            <span class="label-text text-lg">Rest API
                             </span>
                         </label>
                         <progress class="progress progress-primary w-56" value="75" max="100"></progress>
@@ -83,31 +83,31 @@ const Skills = () => {
                 <div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">Javascript</span>
+                            <span class="label-text text-lg">Javascript</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="90" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">Tailwind</span>
+                            <span class="label-text text-lg">Tailwind</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="99" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">Bootstrap</span>
+                            <span class="label-text text-lg">Bootstrap</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="100" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">HTML 5</span>
+                            <span class="label-text text-lg">HTML 5</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="95" max="100"></progress>
                     </div>
                     <div>
                         <label class="label">
-                            <span class="label-text text-2xl">CSS</span>
+                            <span class="label-text text-lg">CSS</span>
                         </label>
                         <progress class="progress progress-primary w-56" value="90" max="100"></progress>
                     </div>

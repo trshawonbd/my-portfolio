@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Navbar.css';
+
 import resume from '../Services/resume.pdf';
 import { Link } from 'react-scroll/modules';
 
@@ -8,37 +8,37 @@ const Navbar = () => {
 
   const navMenu = <>
     <li>
-      <Link className='font-bold uppercase' activeClass="active" to="home" spy={true} smooth={true}>
+      <Link className='font-bold ' activeClass="active" to="home" spy={true} smooth={true}>
         Home
       </Link>
     </li>
     <li>
-      <Link className='font-bold uppercase' to="services" spy={true} smooth={true}>
+      <Link className='font-bold ' to="services" spy={true} smooth={true}>
         Serivces
       </Link>
     </li>
     <li >
-      <Link className='font-bold uppercase' to="projects" spy={true} smooth={true}>
+      <Link className='font-bold ' to="projects" spy={true} smooth={true}>
         Project
       </Link>
     </li>
     <li>
-      <Link className='font-bold uppercase' to="skills" spy={true} smooth={true}>
+      <Link className='font-bold ' to="skills" spy={true} smooth={true}>
         Protfolio
       </Link>
     </li>
     <li>
-      <Link className='font-bold uppercase' to="testimonials" spy={true} smooth={true}>
+      <Link className='font-bold ' to="testimonials" spy={true} smooth={true}>
         Testimonial
       </Link>
     </li>
     <li>
-      <Link className='font-bold uppercase' to="about" spy={true} smooth={true}>
+      <Link className='font-bold ' to="about" spy={true} smooth={true}>
         About
       </Link>
     </li>
     <li>
-      <Link className='font-bold uppercase' to="contact" spy={true} smooth={true}>
+      <Link className='font-bold ' to="contact" spy={true} smooth={true}>
         Contact
       </Link>
     </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar ">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabindex="0" className="btn btn-ghost lg:hidden">

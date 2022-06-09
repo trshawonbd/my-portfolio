@@ -7,7 +7,7 @@ const Footer = () => {
         <div >
              <div class="divider divback"></div> 
                    <footer class="footer footer-center p-10   text-base-content rounded"   >
-            <div class="grid grid-flow-col gap-4">
+            <div class="grid lg:grid-flow-col gap-4">
                 <a class="link link-hover">About me</a>
                 <a class="link link-hover">Contact</a>
                 <a class="link link-hover">Services</a>
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
             </div>
             <div style={{background: `url(${footer})`}}>
-                <p>Copyright © 2022 - All right reserved by TRS</p>
+                <p>Copyright © 2022 <br /> All right reserved by TRS</p>
             </div>
         </footer>
         </div>

@@ -159,7 +159,7 @@ const Header = () => {
                                     ]}>
                                 </Typical>
                             </h1>
-                            <span className="py-8 lg:text-2xl md: text-lg">
+                            <span className="my-8 lg:text-xl md: text-lg">
                                 Knack of building web applications with front and backend operations.
                             </span>
                         </span>

@@ -14,7 +14,7 @@ import BackgroundFooter from './Components/Footer/BackgroundFooter';
 
 function App() {
   return (
-    <div className=''>
+    <div>
       
       <Home></Home>
       

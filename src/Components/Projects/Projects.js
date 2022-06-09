@@ -6,14 +6,14 @@ import photographer from '../../img/projects/Plumber/photographer.png';
 const Projects = () => {
     return (
         <div className='my-12' id='projects'>
-            <h2 className='text-center text-5xl my-8 underline decoration-solid uppercase'>Projects</h2>
+            <h2 className='text-center text-3xl my-8 underline decoration-solid uppercase'>Projects</h2>
 
             <div className='grid lg:grid-cols-3 gap-4'>
 
 
 
 
-                <div className="card  lg:w-96 bg-base-100  shadow-xl ">
+                <div className="card  lg:w-80 bg-base-100  shadow-xl ">
                     <figure><img className='hover:animate-shake' src={plumber} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title uppercase">Plumber</h2>
@@ -137,7 +137,7 @@ const Projects = () => {
                 {/* 2nd project */}
 
 
-                <div className="card  lg:w-96 bg-base-100  shadow-xl ">
+                <div className="card  lg:w-80 bg-base-100  shadow-xl ">
                     <figure><img className='hover:animate-shake' src={ihouse} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title uppercase">I-house</h2>
@@ -243,7 +243,7 @@ const Projects = () => {
 
                 {/* 3rd project */}
 
-                <div className="card  lg:w-96 bg-base-100  shadow-xl ">
+                <div className="card  lg:w-80 bg-base-100  shadow-xl ">
                     <figure><img className='hover:animate-shake' src={photographer} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title uppercase">your photographer</h2>
@@ -265,7 +265,7 @@ const Projects = () => {
 
 
                             <input type="checkbox" id="my-modal-3" class="modal-toggle" />
-                            <div class="modal   ">
+                            <div class="modal lg:justify-center">
                                 <div class="modal-box lg:w-11/12 lg:max-w-5xl  sm:modal-middle">
                                     <label for="my-modal-3" class="btn btn-error btn-sm btn-circle absolute right-2 top-2">✕</label>
 
