@@ -18,7 +18,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/trshawonbd" className='hover:text-primary'>
                                 <i className='fa fa-facebook-square'></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/md-taibur-rahman-0497b5127/" className='hover:text-primary' >
+                            <a href="https://www.linkedin.com/in/md-taibur-rahman-40a6a3240/" className='hover:text-primary' >
                                 <i className='fa fa-linkedin-square'></i>
                             </a>
                             <a href="https://www.instagram.com/taibur_rahman_shawon/" className='hover:text-primary'>

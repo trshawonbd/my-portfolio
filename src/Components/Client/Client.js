@@ -11,7 +11,7 @@ const Client = () => {
                     <div class="stat  place-items-center">
                         <div class="stat-title">Clients</div>
 
-                        <div class="stat-value">                        <CountUp  start={0} end={10} delay={1}>
+                        <div class="stat-value">                        <CountUp  start={0} end={10} delay={0}>
                             {({ countUpRef }) => (
                                 <div>
                                     <span className='stat-value' ref={countUpRef} />
@@ -22,7 +22,7 @@ const Client = () => {
                     <div class="stat place-items-center">
                         <div class="stat-title">Projects</div>
                         
-                        <div class="stat-value">                        <CountUp  start={0} end={11} delay={1}>
+                        <div class="stat-value">                        <CountUp  start={0} end={11} delay={0}>
                             {({ countUpRef }) => (
                                 <div>
                                     <span className='stat-value' ref={countUpRef} />
@@ -33,7 +33,7 @@ const Client = () => {
                     <div class="stat place-items-center">
                         <div class="stat-title">Awards</div>
                         
-                        <div class="stat-value">                        <CountUp  start={0} end={4} delay={1}>
+                        <div class="stat-value">                        <CountUp  start={0} end={4} delay={0}>
                             {({ countUpRef }) => (
                                 <div>
                                     <span className='stat-value' ref={countUpRef} />

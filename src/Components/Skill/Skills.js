@@ -6,6 +6,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { motion } from "framer-motion";
 import './Skills.css';
+import Link from 'react-scroll/modules/components/Link';
 
 const Skills = () => {
     return (
@@ -41,7 +42,9 @@ const Skills = () => {
 
                     </div>
                     <div class="card-actions mt-16 justify-center">
-                        <button class="btn btn-primary uppercase button">Hire ME</button>
+                        <button class="btn btn-primary uppercase button"><Link className='font-bold ' to="contact" spy={true} smooth={true}>
+                        Hire Me
+                    </Link></button>
                     </div>
                 </div>
 

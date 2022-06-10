@@ -6,10 +6,11 @@ import Typical from 'react-typical';
 
 import profile from "../../img/profile.jpg";
 import Footer from './Footer/Footer';
+import { Link } from 'react-scroll/modules';
 
 
 
-const Header = ({dark}) => {
+const Header = ({ dark }) => {
     const particlesInit = async (main) => {
         console.log(main);
 
@@ -36,7 +37,7 @@ const Header = ({dark}) => {
                             value: "",
                         },
                     },
-                    
+
                     fpsLimit: 120,
                     interactivity: {
                         events: {
@@ -89,7 +90,7 @@ const Header = ({dark}) => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 50,
+                            value: 100,
                         },
                         opacity: {
                             value: 0.5,
@@ -108,16 +109,16 @@ const Header = ({dark}) => {
             <div className=" hero-content flex-col lg:flex-row-reverse">
                 <div class="avatar">
                     <div class="lg:w-72 max-w-sm rounded-lg shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
-                        <img className='z-50' src={profile} alt='profile-pic'/>
+                        <img className='z-50' src={profile} alt='profile-pic' />
                     </div>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className="">
-                    <div class="grid grid-flow-col gap-4 mb-2">
-                <a href="https://www.facebook.com/trshawonbd" className='hover:text-primary hover:scale-150'>
+                        <div class="grid grid-flow-col gap-4 mb-2">
+                            <a href="https://www.facebook.com/trshawonbd" className='hover:text-primary hover:scale-150'>
                                 <i className='fa fa-facebook-square'></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/md-taibur-rahman-0497b5127/" className='hover:text-primary hover:scale-150' >
+                            <a href="https://www.linkedin.com/in/md-taibur-rahman-40a6a3240/" className='hover:text-primary hover:scale-150' >
                                 <i className='fa fa-linkedin-square'></i>
                             </a>
                             <a href="https://www.instagram.com/taibur_rahman_shawon/" className='hover:text-primary hover:scale-150'>
@@ -129,7 +130,7 @@ const Header = ({dark}) => {
                             <a href="https://twitter.com/6a642b40fe2a41f" className='hover:text-primary hover:scale-150'>
                                 <i className='fa fa-twitter'></i>
                             </a>
-                </div>
+                        </div>
                     </div>
                     <div className="flex justify-start items-start">
                         <span className="text-xl">
@@ -139,11 +140,11 @@ const Header = ({dark}) => {
                     </div>
                     <div className="profile-details-role">
                         <span className="primary-text text-4xl ">
-                            
+
                             <h1 className='text-4xl'>
-                                
+
                                 <Typical
-                                className= 'type my-3 md: text-2xl lg:text-3xl text-center uppercase'
+                                    className='type my-3 md: text-2xl lg:text-3xl text-center uppercase'
                                     loop={Infinity}
                                     steps={[
                                         "Enthusiastic Dev",
@@ -164,12 +165,15 @@ const Header = ({dark}) => {
                             </span>
                         </span>
                     </div>
-                    <div><button className="btn button btn-primary mt-4">Hire Me</button></div>
+                    <div><button className="btn button btn-primary mt-4">      <Link className='font-bold ' to="contact" spy={true} smooth={true}>
+                        Hire Me
+                    </Link></button></div>
                 </div>
+
             </div>
-            
+
         </div>
-        
+
     );
 };
 

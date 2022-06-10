@@ -84,7 +84,7 @@ const Navbar = ({dark, setDark}) => {
         <div className="n-left">
           <div className="n-name">
           
-            <a className="btn btn-ghost normal-case text-xl text-primary "><Link className='font-bold ' activeClass="active" to="home" spy={true} smooth={true}>
+            <a className="btn btn-ghost normal-case  text-primary "><Link className='font-bold text-3xl ' activeClass="active" to="home" spy={true} smooth={true}>
         TRS
       </Link></a></div>
 
